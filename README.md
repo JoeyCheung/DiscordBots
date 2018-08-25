@@ -1,2 +1,2 @@
 # QC_SmashClub_DiscordBot
-A bot used for my queens college smash club discord channel!
+A discord bot used for my QC smash club  discord channel !
