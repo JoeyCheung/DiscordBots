@@ -52,4 +52,9 @@ async def embed(ctx):
     await bot.say(embed=embed)
     
     
+@bot.event
+async def on_message(ctx):
+	if ctx.content == "low test":
+		await bot.send_message(ctx.channel, ":dancer:")
+	
 bot.run("")
