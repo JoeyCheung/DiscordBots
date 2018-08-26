@@ -57,4 +57,5 @@ async def on_message(ctx):
 	if ctx.content == "low test":
 		await bot.send_message(ctx.channel, ":dancer:")
 	
+	
 bot.run("")
