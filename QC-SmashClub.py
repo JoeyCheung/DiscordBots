@@ -50,12 +50,6 @@ async def embed(ctx):
     embed.set_author(name="QC Smash Club")
     embed.add_field(name="This is a field", value="no it isn't", inline=True)
     await bot.say(embed=embed)
-    
-    
-@bot.event
-async def on_message(ctx):
-	if ctx.content == "low test":
-		await bot.send_message(ctx.channel, ":dancer:")
 	
 	
 bot.run("")
